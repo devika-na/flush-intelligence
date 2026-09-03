@@ -9,8 +9,8 @@
 ### Team Name: The Overengineers
 
 ### Team Members
-- Team Lead: [Name] - [LBSITW]
-- Member 2: [Name] - [LBSITW]
+DEVIKA N A - [LBSITW]
+- [LBSITW]
 
 
 ### Project Description
@@ -19,7 +19,6 @@ Flush Intelligence is a smart bathroom monitoring system that detects toilet flu
 ### The Problem (that doesn't exist)
 People use bathrooms every day, but nobody knows which bathroom is loved the most, how many times the toilets were flushed, or which stall is secretly the most popular. There is absolutely no reason to know any of this — so naturally, we decided to build a system that does.
 
-### The Solution (that nobody asked for)
 ### The Solution (that nobody asked for)
 
 We built Flush Intelligence to solve this extremely unnecessary problem. Our system detects flush events, identifies the stall being used, counts flushes, analyzes bathroom usage, and displays everything on a dashboard. It can even detect unusual usage patterns and crown a “Bathroom of the Day”based on which bathroom gets the most love. 
@@ -97,9 +96,21 @@ Connection completed:
 * 5V → Pushbutton 2 circuit
 * Pushbutton 2 triggers a sound to simulate a toilet flush event 🔊🚽
 
-
-
 Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/14jBvCwAIZIHi0gdns5zaElzmxRb5-gZq/view?usp=sharing)
+#### Step 3 — Pushbutton 3 & 4
+
+We completed the third and fourth stall sensor connections in Tinkercad.
+
+Connection completed:
+
+* Pushbutton 3 → Arduino Digital Pin 4
+* Pushbutton 4 → Arduino Digital Pin 5
+* 10 kΩ resistors → GND
+* 5V → Pushbutton circuits
+* Both pushbuttons produce a sound to simulate toilet flush events 🔊🚽
+Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/15fw68esqFwyvlWp0djq-_-EKHXgFFyCQ/view?usp=sharing)
+
+
 
 
 
