@@ -109,6 +109,11 @@ Connection completed:
 * 5V → Pushbutton circuits
 * Both pushbuttons produce a sound to simulate toilet flush events 🔊🚽
 Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/15fw68esqFwyvlWp0djq-_-EKHXgFFyCQ/view?usp=sharing)
+#### Step 4 — Pushbutton Testing
+
+We tested the completed Tinkercad circuit by pressing each pushbutton individually. Each pushbutton successfully responds to the press and produces the corresponding sound, simulating a toilet flush event.
+
+Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/1XltzRQgSeol6pA4y5ujIOkkRmNsDZdIa/view?usp=sharing)
 
 
 
