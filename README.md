@@ -28,28 +28,28 @@ The system is designed to work with real hardware sensors, but due to limited ac
 
 
 ## Technical Details
-### Technologies/Components Used
 
-### Technologies/Components Used
+## Technologies/Components Used
 
-For Software:
+### For Software:
 
-* Python — flush signal processing and detection
-* Streamlit — interactive dashboard
-* NumPy — numerical and signal processing operations
-* SciPy — audio and signal processing
-* Matplotlib — waveform and data visualization
-* Google Colab — software prototyping and testing
+- **Python** — flush audio processing, detection, and stall localization
+- **NumPy** — numerical and signal processing operations
+- **SciPy** — cross-correlation and signal processing
+- **Librosa** — audio loading and analysis
+- **Matplotlib** — waveform and signal visualization
+- **Streamlit** — interactive monitoring dashboard
+- **Google Colab** — software prototyping and testing
 
-For Hardware:
+### For Hardware:
 
-* Arduino Uno — microcontroller for the hardware prototype
-* Pushbuttons — simulate flush/sensor inputs
-* Breadboard — circuit prototyping
-* Jumper wires — electrical connections
-* 10 kΩ resistors — pull-down configuration
-* Tinkercad Circuits — hardware simulation and testing
-
+- Arduino Uno — microcontroller for the hardware prototype
+- Pushbuttons (4) — simulate flush events for four toilet stalls
+- Piezo Buzzer — provides an audible indication of a detected flush
+- Breadboard — circuit prototyping
+- Jumper Wires— electrical connections
+- Arduino INPUT_PULLUP— internal pull-up configuration for pushbuttons
+- Tinkercad Circuits — hardware simulation and testing
 
 ### Implementation
 For Software:
