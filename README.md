@@ -110,7 +110,7 @@ We tested the completed Tinkercad circuit by pressing each pushbutton individual
 
 Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/1XltzRQgSeol6pA4y5ujIOkkRmNsDZdIa/view?usp=sharing)
 
-#### Step 4 — Pushbutton Testing
+#### Step 4 — Complete Hardware Prototype
 
 We tested the completed Tinkercad hardware prototype by pressing each pushbutton individually. Each pushbutton successfully detected a flush event and produced a corresponding buzzer sound.
 
@@ -148,7 +148,7 @@ Testing completed:
 
 <img width="941" height="740" alt="Screenshot 2026-09-03 234759" src="https://github.com/user-attachments/assets/db3ac694-9d9b-4737-b054-baad7e28a6ad" />
 
-*Explain the final build*
+he completed prototype contains four pushbuttons representing four toilet stalls, an Arduino Uno for processing the inputs, and a piezo buzzer for audible flush feedback. The system identifies the stall associated with each flush and maintains the corresponding flush count through the Serial Monitor.
 
 ### Project Demo
 # Video
