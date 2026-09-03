@@ -29,6 +29,10 @@ The system is designed to work with real hardware sensors, but due to limited ac
 
 ## Technical Details
 
+Flush Intelligence is a smart acoustic toilet monitoring system that detects flush events, identifies the stall being used using acoustic/TDOA-based localization, records flush history, detects unusual usage patterns, and displays the data through a Streamlit dashboard.
+
+The hardware prototype is simulated using Tinkercad Arduino, while Google Colab/Python is used for acoustic processing, event analysis, data storage, and dashboard generation.
+
 ## Technologies/Components Used
 
 ### For Software:
@@ -54,23 +58,28 @@ The system is designed to work with real hardware sensors, but due to limited ac
 ### Implementation
 For Software:
 # Installation
-[commands]
+pip install librosa soundfile numpy pandas scipy streamlit
 
 # Run
-[commands]
+jupyter notebook
+
+Then run the project notebook cells.
+
+To launch the dashboard:
+
+streamlit run app.py
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1600" height="766" alt="1" src="https://github.com/user-attachments/assets/67b700f5-cc58-4b75-9bb1-0bca1e11750f" />
+<img width="1600" height="711" alt="2" src="https://github.com/user-attachments/assets/9c6b3bc5-8f90-4b5b-b622-b634ab86db3c" />
+<img width="1600" height="789" alt="3" src="https://github.com/user-attachments/assets/ed72ef7a-9c75-48e7-83dd-d743ce1f15c4" />
+<img width="1600" height="696" alt="4" src="https://github.com/user-attachments/assets/d1bcc4d5-e1b1-4a5b-a4b2-834192b95df0" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
