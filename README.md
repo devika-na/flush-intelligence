@@ -159,9 +159,12 @@ The completed prototype contains four pushbuttons representing four toilet stall
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+
+Devika N A: Developed the Google Colab software prototype, including flush signal processing, detection, stall identification. Also managed the GitHub repository, README documentation, and project integration.
+
+  Archana P U: Developed and tested the Tinkercad hardware prototype, including the Arduino, pushbuttons, piezo buzzer, stall inputs, and flush-counting logic. Also contributed to the GitHub repository and documentation,
+
+Both Team Members: Worked together to integrate the software and hardware components, test the complete system, connect the different parts of the project, and prepare the final project documentation and demonstration.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
