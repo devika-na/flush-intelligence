@@ -10,7 +10,7 @@
 
 ### Team Members
 DEVIKA N A - [LBSITW]
-- [LBSITW]
+ARCHANA P U- [LBSITW]
 
 
 ### Project Description
@@ -83,8 +83,6 @@ For Hardware:
 We started building the hardware prototype in Tinkercad.
 
  Pushbutton 1 → Arduino Digital Pin 2
- 10 kΩ resistor → GND
- 5V → Pushbutton circuit
  Proof: [Tinkercad Simulation Video](https://drive.google.com/drive/folders/1CWhYKMVx7-yNj94Xo5vewKT76Qgc5y60?usp=drive_link)
  [stimulation 2](https://drive.google.com/file/d/18HerJWOePKBejCe66i9InhfR-iMavVDB/view?usp=sharing)
 #### Step 2 — Pushbutton 2
@@ -92,8 +90,6 @@ We started building the hardware prototype in Tinkercad.
 We continued building the hardware prototype in Tinkercad.
 Connection completed:
 * Pushbutton 2 → Arduino Digital Pin 3
-* 10 kΩ resistor → GND
-* 5V → Pushbutton 2 circuit
 * Pushbutton 2 triggers a sound to simulate a toilet flush event 🔊🚽
 
 Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/14jBvCwAIZIHi0gdns5zaElzmxRb5-gZq/view?usp=sharing)
@@ -105,8 +101,6 @@ Connection completed:
 
 * Pushbutton 3 → Arduino Digital Pin 4
 * Pushbutton 4 → Arduino Digital Pin 5
-* 10 kΩ resistors → GND
-* 5V → Pushbutton circuits
 * Both pushbuttons produce a sound to simulate toilet flush events 🔊🚽
 Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/15fw68esqFwyvlWp0djq-_-EKHXgFFyCQ/view?usp=sharing)
 #### Step 4 — Pushbutton Testing
@@ -115,9 +109,26 @@ We tested the completed Tinkercad circuit by pressing each pushbutton individual
 
 Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/1XltzRQgSeol6pA4y5ujIOkkRmNsDZdIa/view?usp=sharing)
 
+#### Step 4 — Pushbutton Testing
 
+We tested the completed Tinkercad hardware prototype by pressing each pushbutton individually. Each pushbutton successfully detected a flush event and produced a corresponding buzzer sound.
 
+The Arduino also identifies the specific stall and records the number of flushes through the Serial Monitor.
 
+Testing completed:
+
+* Pushbutton 1 → Stall 1 → Arduino Digital Pin 2
+* Pushbutton 2 → Stall 2 → Arduino Digital Pin 3
+* Pushbutton 3 → Stall 3 → Arduino Digital Pin 4
+* Pushbutton 4 → Stall 4 → Arduino Digital Pin 5
+* Piezo buzzer → Arduino Digital Pin 8
+* Buttons use Arduino `INPUT_PULLUP`
+* Each detected flush increases the corresponding stall's flush count
+* Serial Monitor displays the stall number and flush count
+* Piezo buzzer provides an audible indication of the flush event 🔊🚽
+[full simulation video](https://drive.google.com/file/d/1hyJCwk_XhaXgOq9hyY4OLtAyCjNtCKi3/view?usp=sharing)
+
+[Tinkercad](https://www.tinkercad.com/things/7oXE79eQFHA-flush-inntelligence-hardware-prototype?sharecode=Jtvme0ySVaiBGOZ6NoaRBKA5bJR-Nzc0kUlBXu_JcpE)
 
 
 # Schematic & Circuit
