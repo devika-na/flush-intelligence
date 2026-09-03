@@ -2,39 +2,54 @@
 
 
 
-# [Project Name] 🎯
+# Flush Intelligence 🚽
 
 
 ## Basic Details
-### Team Name: [Name]
-
+### Team Name: The Overengineers
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Name] - [LBSITW]
+- Member 2: [Name] - [LBSITW]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+Flush Intelligence is a smart bathroom monitoring system that detects toilet flushes and identifies which stall was used. It tracks flush counts and bathroom usage, detects unusual activity, and visualizes the data through an interactive dashboard. It even features “Bathroom of the Day”, showing which bathroom was loved the most based on its usage!
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People use bathrooms every day, but nobody knows which bathroom is loved the most, how many times the toilets were flushed, or which stall is secretly the most popular. There is absolutely no reason to know any of this — so naturally, we decided to build a system that does.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+### The Solution (that nobody asked for)
+
+We built Flush Intelligence to solve this extremely unnecessary problem. Our system detects flush events, identifies the stall being used, counts flushes, analyzes bathroom usage, and displays everything on a dashboard. It can even detect unusual usage patterns and crown a “Bathroom of the Day”based on which bathroom gets the most love. 
+
+The system is designed to work with real hardware sensors, but due to limited access to hardware resources and budget constraints, we use Tinkercad to simulate and prototype the hardware setup. This allows us to test our circuit and sensor logic virtually while developing the system toward a real-world hardware implementation.
+
 
 ## Technical Details
 ### Technologies/Components Used
+
+### Technologies/Components Used
+
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+
+* Python — flush signal processing and detection
+* Streamlit — interactive dashboard
+* NumPy — numerical and signal processing operations
+* SciPy — audio and signal processing
+* Matplotlib — waveform and data visualization
+* Google Colab — software prototyping and testing
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
+* Arduino Uno — microcontroller for the hardware prototype
+* Pushbuttons — simulate flush/sensor inputs
+* Breadboard — circuit prototyping
+* Jumper wires — electrical connections
+* 10 kΩ resistors — pull-down configuration
+* Tinkercad Circuits — hardware simulation and testing
+
 
 ### Implementation
 For Software:
@@ -62,6 +77,20 @@ For Software:
 *Add caption explaining your workflow*
 
 For Hardware:
+### Hardware Prototype Progress
+
+#### Step 1 — Pushbutton 1
+
+We started building the hardware prototype in Tinkercad.
+
+ Pushbutton 1 → Arduino Digital Pin 2
+ 10 kΩ resistor → GND
+ 5V → Pushbutton circuit
+ Proof: [Tinkercad Simulation Video][https://drive.google.com/drive/folders/1CWhYKMVx7-yNj94Xo5vewKT76Qgc5y60?usp=drive_link]
+ [Stimulation video 2](https://drive.google.com/file/d/18HerJWOePKBejCe66i9InhfR-iMavVDB/view?usp=sharing)
+
+
+
 
 # Schematic & Circuit
 ![Circuit](Add your circuit diagram here)
