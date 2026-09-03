@@ -146,7 +146,8 @@ Testing completed:
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
+<img width="941" height="740" alt="Screenshot 2026-09-03 234759" src="https://github.com/user-attachments/assets/db3ac694-9d9b-4737-b054-baad7e28a6ad" />
+
 *Explain the final build*
 
 ### Project Demo
