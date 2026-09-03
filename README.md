@@ -86,8 +86,20 @@ We started building the hardware prototype in Tinkercad.
  Pushbutton 1 → Arduino Digital Pin 2
  10 kΩ resistor → GND
  5V → Pushbutton circuit
- Proof: [Tinkercad Simulation Video][https://drive.google.com/drive/folders/1CWhYKMVx7-yNj94Xo5vewKT76Qgc5y60?usp=drive_link]
- [Stimulation video 2](https://drive.google.com/file/d/18HerJWOePKBejCe66i9InhfR-iMavVDB/view?usp=sharing)
+ Proof: [Tinkercad Simulation Video](https://drive.google.com/drive/folders/1CWhYKMVx7-yNj94Xo5vewKT76Qgc5y60?usp=drive_link)
+ [stimulation 2](https://drive.google.com/file/d/18HerJWOePKBejCe66i9InhfR-iMavVDB/view?usp=sharing)
+#### Step 2 — Pushbutton 2
+
+We continued building the hardware prototype in Tinkercad.
+Connection completed:
+* Pushbutton 2 → Arduino Digital Pin 3
+* 10 kΩ resistor → GND
+* 5V → Pushbutton 2 circuit
+* Pushbutton 2 triggers a sound to simulate a toilet flush event 🔊🚽
+
+
+
+Proof: [Tinkercad Simulation Video](https://drive.google.com/file/d/14jBvCwAIZIHi0gdns5zaElzmxRb5-gZq/view?usp=sharing)
 
 
 
