@@ -253,12 +253,12 @@ The completed prototype contains four pushbuttons representing four toilet stall
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[[watch]](https://docs.google.com/videos/d/1ytnjyCiQctAZEchP7kMjgtT0p76vhtXC_siDdsO6Ik0/play?usp=sharing)
+This video demonstrates the complete Flush Intelligence prototype. It shows the four pushbuttons representing four toilet stalls, where each button press simulates a flush event. The Arduino identifies the corresponding stall, increases its flush count, and triggers the piezo buzzer as an audible flush indication. The video also demonstrates the Serial Monitor displaying the detected stall and flush count, showing how the hardware prototype works as part of the overall Flush Intelligence system.
 
 # Additional Demos
-[Add any extra demo materials/links]
-
+[[Additional ]
+](https://drive.google.com/drive/folders/1CWhYKMVx7-yNj94Xo5vewKT76Qgc5y60?usp=drive_link)
 ## Team Contributions
 
 Devika N A: Developed the Google Colab software prototype, including flush signal processing, detection, stall identification. Also managed the GitHub repository, README documentation, and project integration.
