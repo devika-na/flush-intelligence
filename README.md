@@ -202,11 +202,37 @@ Testing completed:
 
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+FLUSH INTELLIGENCE – HARDWARE CIRCUIT
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+                         ┌─────────────────┐
+                         │   ARDUINO UNO   │
+                         └───────┬─────────┘
+                                 │
+             ┌───────────────────┼───────────────────┐
+             │                   │                   │
+             ▼                   ▼                   ▼
+        ┌─────────┐         ┌─────────┐        ┌─────────┐
+        │ STALL 1 │         │ STALL 2 │        │ STALL 3 │
+        │ BUTTON  │         │ BUTTON  │        │ BUTTON  │
+        │   D2    │         │   D3    │        │   D4    │
+        └────┬────┘         └────┬────┘        └────┬────┘
+             │                   │                   │
+             └───────────────────┼───────────────────┘
+                                 │
+                           ┌─────▼─────┐
+                           │  STALL 4  │
+                           │  BUTTON   │
+                           │    D5     │
+                           └───────────┘
+
+                         D8 ───────► (+) PIEZO
+                                    BUZZER
+                         GND ──────► (−)
+
+        All pushbuttons use Arduino INPUT_PULLUP
+        Button press → Arduino detects flush → Serial Event
+
+        The hardware prototype uses an Arduino Uno with four pushbuttons representing four toilet stalls. Each button is connected to a digital input (D2–D5) using INPUT_PULLUP. When a flush is simulated, Arduino detects the corresponding stall and sends a serial event, while a piezo buzzer provides an audio indication.
 
 # Build Photos
 <img width="1915" height="928" alt="TINTIN" src="https://github.com/user-attachments/assets/59a3b243-a277-4a94-bd19-50858b97d34b" />
