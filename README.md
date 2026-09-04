@@ -71,6 +71,7 @@ streamlit run app.py
 
 ### Project Documentation
 For Software:
+https://drive.google.com/file/d/1yvzuEcwOqSCpPZ26XCOOslpef8Ys8vmx/view?usp=sharing
 
 # Screenshots (Add at least 3)
 <img width="1600" height="766" alt="1" src="https://github.com/user-attachments/assets/67b700f5-cc58-4b75-9bb1-0bca1e11750f" />
@@ -82,8 +83,67 @@ For Software:
 
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+FLUSH INTELLIGENCE – SOFTWARE WORKFLOW
+
+                         FLUSH SOUND / EVENT
+                                │
+                                ▼
+                     ┌─────────────────────┐
+                     │   DATA ACQUISITION  │
+                     │ Acoustic Audio +    │
+                     │ Arduino Event       │
+                     └──────────┬──────────┘
+                                │
+                                ▼
+                     ┌─────────────────────┐
+                     │   PRE-PROCESSING    │
+                     │ RMS Energy + FFT    │
+                     │ Audio Processing    │
+                     └──────────┬──────────┘
+                                │
+                                ▼
+                     ┌─────────────────────┐
+                     │  FLUSH DETECTION    │
+                     │ Energy Thresholding │
+                     └──────────┬──────────┘
+                                │
+                                ▼
+                     ┌─────────────────────┐
+                     │ STALL LOCALIZATION  │
+                     │ TDOA + Cross        │
+                     │ Correlation         │
+                     └──────────┬──────────┘
+                                │
+                                ▼
+                     ┌─────────────────────┐
+                     │   EVENT PROCESSING  │
+                     │ Timestamp + Stall   │
+                     │ ID + Flush Count    │
+                     └──────────┬──────────┘
+                                │
+                    ┌───────────┴───────────┐
+                    ▼                       ▼
+          ┌──────────────────┐    ┌──────────────────┐
+          │ ANOMALY          │    │ DATA STORAGE     │
+          │ DETECTION        │    │ CSV / History    │
+          └────────┬─────────┘    └────────┬─────────┘
+                   └────────────┬───────────┘
+                                ▼
+                     ┌─────────────────────┐
+                     │ STREAMLIT DASHBOARD │
+                     │ • Flush Counts      │
+                     │ • Stall Usage       │
+                     │ • Alerts            │
+                     │ • Bathroom of Day   │
+                     │ • Flush Sound       │
+                     └──────────┬──────────┘
+                                │
+                                ▼
+                     ┌─────────────────────┐
+                     │ REPORT / INSIGHTS   │
+                     │ CSV Export & Usage  │
+                     │ Analysis            │
+                     └─────────────────────┘
 
 For Hardware:
 ### Hardware Prototype Progress
@@ -149,8 +209,14 @@ Testing completed:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+<img width="1915" height="928" alt="TINTIN" src="https://github.com/user-attachments/assets/59a3b243-a277-4a94-bd19-50858b97d34b" />
+- Arduino Uno — microcontroller for the hardware prototype
+- Pushbuttons (4) — simulate flush events for four toilet stalls
+- Piezo Buzzer — provides an audible indication of a detected flush
+- Breadboard — circuit prototyping
+- Jumper Wires— electrical connections
+- Arduino INPUT_PULLUP— internal pull-up configuration for pushbuttons
+- Tinkercad Circuits — hardware simulation and testing
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
